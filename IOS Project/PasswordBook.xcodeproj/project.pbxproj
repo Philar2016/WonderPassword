@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2718881A1D5820E300B84CA1 /* forgetPawwordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271888191D5820E300B84CA1 /* forgetPawwordViewController.swift */; };
+		2718881C1D582F9B00B84CA1 /* DetailOfListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718881B1D582F9B00B84CA1 /* DetailOfListViewController.swift */; };
+		2718881E1D5980B600B84CA1 /* EditPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2718881D1D5980B600B84CA1 /* EditPasswordViewController.swift */; };
+		271E7A391D6AD7210059DFA1 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E7A381D6AD7210059DFA1 /* SettingTableViewController.swift */; };
+		271E7A3F1D6B06470059DFA1 /* SKSplashIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 271E7A3C1D6B06470059DFA1 /* SKSplashIcon.m */; };
+		271E7A401D6B06470059DFA1 /* SKSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 271E7A3E1D6B06470059DFA1 /* SKSplashView.m */; };
+		27215B331D4B2DBB0045D701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27215B321D4B2DBB0045D701 /* AppDelegate.swift */; };
+		27215B351D4B2DBC0045D701 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27215B341D4B2DBB0045D701 /* ViewController.swift */; };
+		27215B381D4B2DBC0045D701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27215B361D4B2DBC0045D701 /* Main.storyboard */; };
+		27215B3A1D4B2DBC0045D701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27215B391D4B2DBC0045D701 /* Assets.xcassets */; };
+		27215B3D1D4B2DBC0045D701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27215B3B1D4B2DBC0045D701 /* LaunchScreen.storyboard */; };
+		27215B471D4B39680045D701 /* AddPassWordPackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27215B461D4B39680045D701 /* AddPassWordPackController.swift */; };
+		278AD4091D66AAB600363A3D /* CheckEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278AD4081D66AAB600363A3D /* CheckEmailViewController.swift */; };
+		279B855A1D62EF96005A2BC6 /* TouchIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B85591D62EF96005A2BC6 /* TouchIDViewController.swift */; };
+		279B855C1D62EFF9005A2BC6 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279B855B1D62EFF9005A2BC6 /* LocalAuthentication.framework */; };
+		279B85611D634320005A2BC6 /* PasswordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B85601D634320005A2BC6 /* PasswordData.swift */; };
+		279B85921D655FAC005A2BC6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 279B85871D655FAC005A2BC6 /* .gitignore */; };
+		279B85931D655FAC005A2BC6 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 279B85891D655FAC005A2BC6 /* AESCrypt.m */; };
+		279B85941D655FAC005A2BC6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 279B858A1D655FAC005A2BC6 /* LICENSE */; };
+		279B85951D655FAC005A2BC6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 279B858C1D655FAC005A2BC6 /* NSData+Base64.m */; };
+		279B85961D655FAC005A2BC6 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 279B858E1D655FAC005A2BC6 /* NSData+CommonCrypto.m */; };
+		279B85971D655FAC005A2BC6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 279B85901D655FAC005A2BC6 /* NSString+Base64.m */; };
+		279B85981D655FAC005A2BC6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 279B85911D655FAC005A2BC6 /* README.md */; };
+		27AA2FA81D4EF507005ECF2A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA2FA71D4EF507005ECF2A /* ListViewController.swift */; };
+		27AA2FAA1D4F3969005ECF2A /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA2FA91D4F3969005ECF2A /* PasswordCell.swift */; };
+		27AA2FB01D519EAE005ECF2A /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA2FAF1D519EAE005ECF2A /* registerViewController.swift */; };
+		647082119C5908B781652F0E /* Pods_PasswordBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116CC0424B006D6ECF4F76B9 /* Pods_PasswordBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		279B857A1D64125E005A2BC6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		116CC0424B006D6ECF4F76B9 /* Pods_PasswordBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271888191D5820E300B84CA1 /* forgetPawwordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgetPawwordViewController.swift; sourceTree = "<group>"; };
+		2718881B1D582F9B00B84CA1 /* DetailOfListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailOfListViewController.swift; sourceTree = "<group>"; };
+		2718881D1D5980B600B84CA1 /* EditPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPasswordViewController.swift; sourceTree = "<group>"; };
+		271E7A381D6AD7210059DFA1 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		271E7A3B1D6B06470059DFA1 /* SKSplashIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSplashIcon.h; sourceTree = "<group>"; };
+		271E7A3C1D6B06470059DFA1 /* SKSplashIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSplashIcon.m; sourceTree = "<group>"; };
+		271E7A3D1D6B06470059DFA1 /* SKSplashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSplashView.h; sourceTree = "<group>"; };
+		271E7A3E1D6B06470059DFA1 /* SKSplashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSplashView.m; sourceTree = "<group>"; };
+		27215B2F1D4B2DBB0045D701 /* PasswordBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27215B321D4B2DBB0045D701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27215B341D4B2DBB0045D701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27215B371D4B2DBC0045D701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27215B391D4B2DBC0045D701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27215B3C1D4B2DBC0045D701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27215B3E1D4B2DBC0045D701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27215B461D4B39680045D701 /* AddPassWordPackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPassWordPackController.swift; sourceTree = "<group>"; };
+		278AD4081D66AAB600363A3D /* CheckEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckEmailViewController.swift; sourceTree = "<group>"; };
+		279B85591D62EF96005A2BC6 /* TouchIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDViewController.swift; sourceTree = "<group>"; };
+		279B855B1D62EFF9005A2BC6 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		279B85601D634320005A2BC6 /* PasswordData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordData.swift; sourceTree = "<group>"; };
+		279B85821D655ABF005A2BC6 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		279B85871D655FAC005A2BC6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		279B85881D655FAC005A2BC6 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		279B85891D655FAC005A2BC6 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		279B858A1D655FAC005A2BC6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		279B858B1D655FAC005A2BC6 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		279B858C1D655FAC005A2BC6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		279B858D1D655FAC005A2BC6 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		279B858E1D655FAC005A2BC6 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		279B858F1D655FAC005A2BC6 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		279B85901D655FAC005A2BC6 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		279B85911D655FAC005A2BC6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		27AA2FA71D4EF507005ECF2A /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		27AA2FA91D4F3969005ECF2A /* PasswordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		27AA2FAF1D519EAE005ECF2A /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		77B49FA06B5B7585414E969F /* Pods-PasswordBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordBook/Pods-PasswordBook.debug.xcconfig"; sourceTree = "<group>"; };
+		FC11A762D006DD61479A109E /* Pods-PasswordBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordBook/Pods-PasswordBook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27215B2C1D4B2DBB0045D701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B855C1D62EFF9005A2BC6 /* LocalAuthentication.framework in Frameworks */,
+				647082119C5908B781652F0E /* Pods_PasswordBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271E7A3A1D6B06470059DFA1 /* SKSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				271E7A3B1D6B06470059DFA1 /* SKSplashIcon.h */,
+				271E7A3C1D6B06470059DFA1 /* SKSplashIcon.m */,
+				271E7A3D1D6B06470059DFA1 /* SKSplashView.h */,
+				271E7A3E1D6B06470059DFA1 /* SKSplashView.m */,
+			);
+			path = SKSplashView;
+			sourceTree = "<group>";
+		};
+		27215B261D4B2DBB0045D701 = {
+			isa = PBXGroup;
+			children = (
+				27215B311D4B2DBB0045D701 /* PasswordBook */,
+				27215B301D4B2DBB0045D701 /* Products */,
+				EAC8DD99EEA647A3D843ABCE /* Pods */,
+				C36DFC69B59F5751DECFDB47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27215B301D4B2DBB0045D701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27215B2F1D4B2DBB0045D701 /* PasswordBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27215B311D4B2DBB0045D701 /* PasswordBook */ = {
+			isa = PBXGroup;
+			children = (
+				279B85851D655FAC005A2BC6 /* OtherResources */,
+				279B855F1D634250005A2BC6 /* view */,
+				279B855E1D634220005A2BC6 /* controller */,
+				279B855D1D63420D005A2BC6 /* model */,
+				27215B321D4B2DBB0045D701 /* AppDelegate.swift */,
+				27215B361D4B2DBC0045D701 /* Main.storyboard */,
+				27215B391D4B2DBC0045D701 /* Assets.xcassets */,
+				27215B3B1D4B2DBC0045D701 /* LaunchScreen.storyboard */,
+				27215B3E1D4B2DBC0045D701 /* Info.plist */,
+			);
+			path = PasswordBook;
+			sourceTree = "<group>";
+		};
+		279B855D1D63420D005A2BC6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				279B85821D655ABF005A2BC6 /* Header.h */,
+				279B85601D634320005A2BC6 /* PasswordData.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		279B855E1D634220005A2BC6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				271E7A381D6AD7210059DFA1 /* SettingTableViewController.swift */,
+				278AD4081D66AAB600363A3D /* CheckEmailViewController.swift */,
+				271888191D5820E300B84CA1 /* forgetPawwordViewController.swift */,
+				27AA2FAF1D519EAE005ECF2A /* registerViewController.swift */,
+				27215B341D4B2DBB0045D701 /* ViewController.swift */,
+				27215B461D4B39680045D701 /* AddPassWordPackController.swift */,
+				279B85591D62EF96005A2BC6 /* TouchIDViewController.swift */,
+				2718881D1D5980B600B84CA1 /* EditPasswordViewController.swift */,
+				27AA2FA71D4EF507005ECF2A /* ListViewController.swift */,
+				2718881B1D582F9B00B84CA1 /* DetailOfListViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		279B855F1D634250005A2BC6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				27AA2FA91D4F3969005ECF2A /* PasswordCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		279B85851D655FAC005A2BC6 /* OtherResources */ = {
+			isa = PBXGroup;
+			children = (
+				271E7A3A1D6B06470059DFA1 /* SKSplashView */,
+				279B85861D655FAC005A2BC6 /* AESCrypt */,
+			);
+			path = OtherResources;
+			sourceTree = "<group>";
+		};
+		279B85861D655FAC005A2BC6 /* AESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				279B85871D655FAC005A2BC6 /* .gitignore */,
+				279B85881D655FAC005A2BC6 /* AESCrypt.h */,
+				279B85891D655FAC005A2BC6 /* AESCrypt.m */,
+				279B858A1D655FAC005A2BC6 /* LICENSE */,
+				279B858B1D655FAC005A2BC6 /* NSData+Base64.h */,
+				279B858C1D655FAC005A2BC6 /* NSData+Base64.m */,
+				279B858D1D655FAC005A2BC6 /* NSData+CommonCrypto.h */,
+				279B858E1D655FAC005A2BC6 /* NSData+CommonCrypto.m */,
+				279B858F1D655FAC005A2BC6 /* NSString+Base64.h */,
+				279B85901D655FAC005A2BC6 /* NSString+Base64.m */,
+				279B85911D655FAC005A2BC6 /* README.md */,
+			);
+			path = AESCrypt;
+			sourceTree = "<group>";
+		};
+		C36DFC69B59F5751DECFDB47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279B855B1D62EFF9005A2BC6 /* LocalAuthentication.framework */,
+				116CC0424B006D6ECF4F76B9 /* Pods_PasswordBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAC8DD99EEA647A3D843ABCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77B49FA06B5B7585414E969F /* Pods-PasswordBook.debug.xcconfig */,
+				FC11A762D006DD61479A109E /* Pods-PasswordBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27215B2E1D4B2DBB0045D701 /* PasswordBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27215B411D4B2DBC0045D701 /* Build configuration list for PBXNativeTarget "PasswordBook" */;
+			buildPhases = (
+				D814E76043F58DA286C8CA86 /* [CP] Check Pods Manifest.lock */,
+				27215B2B1D4B2DBB0045D701 /* Sources */,
+				27215B2C1D4B2DBB0045D701 /* Frameworks */,
+				27215B2D1D4B2DBB0045D701 /* Resources */,
+				EE373F5D6AE12E11BB093874 /* [CP] Embed Pods Frameworks */,
+				C4BE29CFF91EF27E055DBFC7 /* [CP] Copy Pods Resources */,
+				279B857A1D64125E005A2BC6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordBook;
+			productName = PasswordBook;
+			productReference = 27215B2F1D4B2DBB0045D701 /* PasswordBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27215B271D4B2DBB0045D701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LiangMinglong;
+				TargetAttributes = {
+					27215B2E1D4B2DBB0045D701 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 27215B2A1D4B2DBB0045D701 /* Build configuration list for PBXProject "PasswordBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27215B261D4B2DBB0045D701;
+			productRefGroup = 27215B301D4B2DBB0045D701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27215B2E1D4B2DBB0045D701 /* PasswordBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27215B2D1D4B2DBB0045D701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279B85921D655FAC005A2BC6 /* .gitignore in Resources */,
+				27215B3D1D4B2DBC0045D701 /* LaunchScreen.storyboard in Resources */,
+				27215B3A1D4B2DBC0045D701 /* Assets.xcassets in Resources */,
+				27215B381D4B2DBC0045D701 /* Main.storyboard in Resources */,
+				279B85941D655FAC005A2BC6 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4BE29CFF91EF27E055DBFC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordBook/Pods-PasswordBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D814E76043F58DA286C8CA86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE373F5D6AE12E11BB093874 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordBook/Pods-PasswordBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27215B2B1D4B2DBB0045D701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27215B351D4B2DBC0045D701 /* ViewController.swift in Sources */,
+				27215B331D4B2DBB0045D701 /* AppDelegate.swift in Sources */,
+				2718881A1D5820E300B84CA1 /* forgetPawwordViewController.swift in Sources */,
+				27AA2FA81D4EF507005ECF2A /* ListViewController.swift in Sources */,
+				279B85931D655FAC005A2BC6 /* AESCrypt.m in Sources */,
+				271E7A401D6B06470059DFA1 /* SKSplashView.m in Sources */,
+				2718881C1D582F9B00B84CA1 /* DetailOfListViewController.swift in Sources */,
+				271E7A391D6AD7210059DFA1 /* SettingTableViewController.swift in Sources */,
+				279B85981D655FAC005A2BC6 /* README.md in Sources */,
+				278AD4091D66AAB600363A3D /* CheckEmailViewController.swift in Sources */,
+				279B85961D655FAC005A2BC6 /* NSData+CommonCrypto.m in Sources */,
+				271E7A3F1D6B06470059DFA1 /* SKSplashIcon.m in Sources */,
+				27215B471D4B39680045D701 /* AddPassWordPackController.swift in Sources */,
+				27AA2FAA1D4F3969005ECF2A /* PasswordCell.swift in Sources */,
+				279B85971D655FAC005A2BC6 /* NSString+Base64.m in Sources */,
+				2718881E1D5980B600B84CA1 /* EditPasswordViewController.swift in Sources */,
+				27AA2FB01D519EAE005ECF2A /* registerViewController.swift in Sources */,
+				279B855A1D62EF96005A2BC6 /* TouchIDViewController.swift in Sources */,
+				279B85951D655FAC005A2BC6 /* NSData+Base64.m in Sources */,
+				279B85611D634320005A2BC6 /* PasswordData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27215B361D4B2DBC0045D701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27215B371D4B2DBC0045D701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27215B3B1D4B2DBC0045D701 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27215B3C1D4B2DBC0045D701 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27215B3F1D4B2DBC0045D701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27215B401D4B2DBC0045D701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27215B421D4B2DBC0045D701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B49FA06B5B7585414E969F /* Pods-PasswordBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PasswordBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiangMinglong.PasswordBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = PasswordBook/Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27215B431D4B2DBC0045D701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC11A762D006DD61479A109E /* Pods-PasswordBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PasswordBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiangMinglong.PasswordBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = PasswordBook/Header.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27215B2A1D4B2DBB0045D701 /* Build configuration list for PBXProject "PasswordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27215B3F1D4B2DBC0045D701 /* Debug */,
+				27215B401D4B2DBC0045D701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27215B411D4B2DBC0045D701 /* Build configuration list for PBXNativeTarget "PasswordBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27215B421D4B2DBC0045D701 /* Debug */,
+				27215B431D4B2DBC0045D701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27215B271D4B2DBB0045D701 /* Project object */;
+}
